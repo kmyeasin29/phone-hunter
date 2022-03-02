@@ -20,7 +20,7 @@ const searchPhone = () => {
             .then(data => getSearchAccess(data.data));
         searchValue.value = "";
         error.innerText = "";
-
+        searctResult.innerHTML = "";
     }
 }
 
